@@ -1,14 +1,27 @@
-const button01 = [
+const buttons = [
   {
     buttonText: {
-      displayText: "displayText 01 - button01",
-    },
-  },
-  {
-    buttonText: {
-      displayText: "displayText 02 - button01",
+      displayText: "Quem somos",
     },
   },
 ];
 
-export { button01 };
+const serviceButtons = [
+  {
+    buttonText: {
+      displayText: "Estratégia e gestão de tráfego pago",
+    },
+  },
+  {
+    buttonText: {
+      displayText: "Estratégia e gestão de Whatsapp",
+    },
+  },
+  {
+    buttonText: {
+      displayText: "Bot WhatsApp personalizado",
+    },
+  },
+];
+
+export { buttons, serviceButtons };

@@ -3,7 +3,7 @@ import { create, Whatsapp } from "venom-bot";
 export default async function CreateWhatsAppClient(): Promise<Whatsapp> {
   try {
     const client = await create({
-      session: "wa-canoas-sac",
+      session: "pandorga",
       multidevice: true,
       folderNameToken: "tokens",
       mkdirFolderToken: "./data/app",
