@@ -10,6 +10,7 @@ const client = create({
   folderNameToken: "tokens",
   mkdirFolderToken: "./data/app",
   createPathFileToken: true,
+  headless: true,
 }).then((client: any) => start(client));
 
 function start(client: any) {
